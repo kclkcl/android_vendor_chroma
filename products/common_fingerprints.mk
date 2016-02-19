@@ -33,3 +33,16 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="shamu-user 6.0.1 MMB29Q 2480792 release-keys"
 endif
 
+ifeq ($(TARGET_PRODUCT),chroma_sprout4)
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=sprout \
+    BUILD_FINGERPRINT=6.0/MRA58M/2280749:user/release-keys \
+    PRIVATE_BUILD_DESC="sprout-user 6.0 MRA58M 2280749 release-keys"
+endif
+
+ifeq ($(TARGET_PRODUCT),chroma_sprout8)
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=sprout \
+    BUILD_FINGERPRINT=6.0/MRA58M/2280749:user/release-keys \
+    PRIVATE_BUILD_DESC="sprout-user 6.0 MRA58M 2280749 release-keys"
+endif
