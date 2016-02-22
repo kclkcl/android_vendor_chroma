@@ -67,7 +67,7 @@ PRODUCT_COPY_FILES += \
     vendor/chroma/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions \
     vendor/chroma/prebuilt/common/etc/backup.conf:system/etc/backup.conf
 
-ifneq ($(filter chroma_mako chroma_hammerhead chroma_shamu,$(TARGET_PRODUCT)),)
+ifneq ($(filter chroma_mako chroma_hammerhead chroma_shamu chroma_sprout4 chroma_sprout8,$(TARGET_PRODUCT)),)
 PRODUCT_COPY_FILES +=  \
     vendor/chroma/prebuilt/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
     vendor/chroma/prebuilt/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
