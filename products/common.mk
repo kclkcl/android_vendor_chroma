@@ -29,7 +29,7 @@ PRODUCT_COPY_FILES += \
 #TARGET_USES_BLOCK_BASED_OTA := false
 
 # Latin IME lib - gesture typing
-ifneq ($(filter chroma_hammerhead chroma_mako chroma_shamu,$(TARGET_PRODUCT)),)
+ifneq ($(filter chroma_hammerhead chroma_mako chroma_shamu chroma_sprout4 chroma_sprout8,$(TARGET_PRODUCT)),)
 PRODUCT_COPY_FILES += \
     vendor/chroma/prebuilt/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so
 else
