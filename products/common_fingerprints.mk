@@ -36,13 +36,13 @@ endif
 ifeq ($(TARGET_PRODUCT),chroma_sprout4)
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=sprout \
-    BUILD_FINGERPRINT=6.0.1/MMB29V/2554798:user/release-keys \
-    PRIVATE_BUILD_DESC="sprout-user 6.0.1 MMB29V 2554798 release-keys"
+    BUILD_FINGERPRINT=6.0.1/MMB29X/2704508:user/release-keys \
+    PRIVATE_BUILD_DESC="sprout-user 6.0.1 MMB29X 2704508 release-keys"
 endif
 
 ifeq ($(TARGET_PRODUCT),chroma_sprout8)
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=sprout \
-    BUILD_FINGERPRINT=6.0.1/MMB29V/2554798:user/release-keys \
-    PRIVATE_BUILD_DESC="sprout-user 6.0.1 MMB29V 2554798 release-keys"
+    BUILD_FINGERPRINT=6.0.1/MMB29X/2704508:user/release-keys \
+    PRIVATE_BUILD_DESC="sprout-user 6.0.1 MMB29X 2704508 release-keys"
 endif
